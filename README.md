@@ -1,7 +1,3 @@
-# votd-fetch-and-upload
-AWS Workflow for the Viz of the Day data set refresh
-
-
 <h1 style="font-weight:normal"> 
   Viz of the Day: AWS Workflow 
 </h1>
@@ -25,3 +21,31 @@ Quick Link
 
 ### :a: About
 The AWS workflow for the Viz of the Day data set daily refresh, using AWS Lambda functions, AWS S3 and Google Sheets.
+
+## TO DO:
+
+### Diagram
+
+### Setup
+
+- Google Sheet
+- Google Sheets Writer API 
+- AWS Secrets Manager
+- AWS IAM Roles
+
+### AWS Lambda Layers
+
+- Pandas, OAuth, Gspread
+
+### Lambda Function - Fetch data and save to S3
+
+- IAM Role
+- Call Tableau Public API
+- Save to S3
+
+### Lambda Function - Read S3 data and upload to Google Sheets
+
+- IAM Role
+- Read S3 bucket data
+- Call Secrets Manager
+- Write to Google Sheets
