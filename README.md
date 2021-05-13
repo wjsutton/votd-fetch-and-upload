@@ -22,9 +22,11 @@ Quick Link
 ### :a: About
 The AWS workflow for the Viz of the Day data set daily refresh, using AWS Lambda functions, AWS S3 and Google Sheets.
 
-## TO DO:
+#### Overview Diagram
+<img src="https://github.com/wjsutton/votd-fetch-and-upload/blob/main/Diagram.png?raw=true">
 
-### Diagram
+
+## TO DO:
 
 ### Setup
 
