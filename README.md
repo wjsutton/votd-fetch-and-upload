@@ -30,9 +30,21 @@ The AWS workflow for the Viz of the Day data set daily refresh, using AWS Lambda
 
 ### Setup
 
-- Google Sheet
+- Google Sheets
+Sign in to Google Sheets: [https://docs.google.com/spreadsheets/u/0/](https://docs.google.com/spreadsheets/u/0/)
+Create a blank spreadsheet
+<img src="https://github.com/wjsutton/votd-fetch-and-upload/blob/main/google_sheets_create_new.png?raw=true">
+Give the sheet a name and take a note of the Sheet ID
+<img src="https://github.com/wjsutton/votd-fetch-and-upload/blob/main/google_sheets_save_test_sheet.png?raw=true">
+
 - Google Sheets Writer API 
+Sign in to Google Cloud Platform (GCP) [https://console.cloud.google.com/](https://console.cloud.google.com/)
+Create a new project
+<img src="https://github.com/wjsutton/votd-fetch-and-upload/blob/main/gcp_new_project.png?raw=true">
+
 - AWS Secrets Manager
+AWS Console [https://aws.amazon.com/console/](https://aws.amazon.com/console/)
+
 - AWS IAM Roles
 
 ### AWS Lambda Layers
